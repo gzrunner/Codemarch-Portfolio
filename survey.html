@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests Survey Form</title>
+</head>
+<body>
+    <h1>Interests Survey Form</h1>
+
+    <form>
+        <label for="enter_name">Enter your name</label>
+        <input type="text" id="name" name="enter_name"><br><br>
+        <label for="dept">Enter your department</label>
+        <input type="text" id="dept" name="dept"><br><br>
+        <label for="self">Tell us a little about yourself</label>
+        <textarea rows="4"> </textarea><br><br>
+
+        <label for="yes_no_radio">Do you exercise at home?</label>
+        <input type="radio" name="yes_no" value="Yes">Yes</input>
+        <input type="radio" name="yes_no" value="No">No</input><br><br>
+
+        <label for="fav_topics">How do you like to read about your favorite topics?</label><br><br>
+        <input type="checkbox" id=topic1" name="books" value="Books">Books</input>
+        <input type="checkbox" id=topic2" name="resources" value="online_resources">Online Resourcs</input>
+        <input type="checkbox" id=topic3" name="apps" value="phone_apps">Phone Apps</input>
+        <input type="checkbox" id=topic4" name="mags" value="magazines">Magazines</input><br><br>
+
+        <label for="movies">What genre of movies do you like?</label>
+            <select name="movies" id="movies">
+                <option value="comedy">Comedy</option>
+                <option value="action">Action</option>
+                <option value="horror">Horror</option>
+                <option value="drama">Drama</option>
+                <option value="documentary">Documentary</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit"></input>
+           
+            
+        
+
+    </form>
+</body>
+</html>
